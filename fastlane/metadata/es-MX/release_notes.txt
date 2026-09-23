@@ -1,0 +1,1 @@
+La versión 1.0 es el primer lanzamiento. Anota páginas en el Estante, Saluda a un libro para escribir un Recorrido y toca una isla de género para gastar esas páginas como distancia. Días guarda un Diario de lectura de Fijos, Rumbos, Orzadas y Recaladas. Ajustes incluye páginas por celda, Nombres de islas, Recordatorio nocturno y Contacto.

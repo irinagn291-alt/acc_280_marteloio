@@ -1,0 +1,1 @@
+lectura,libros,páginas,género,carta,estante,isbn,código,barras,saludo,rumbo,isla,diario,recordatorio

@@ -1,0 +1,1 @@
+Version 1.0 is the first release. Log pages on the Shelf, Hail a book to write a Run, and tap a genre island to spend those pages as distance. Days keeps a Reading log of Fixes, Rhumbs, Luffs and Landfalls. Settings includes pages per cell, Island names, Evening reminder and Contact.

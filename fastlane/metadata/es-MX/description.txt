@@ -1,0 +1,12 @@
+Marteloio es una carta de lectura para quienes pasan de un género literario a otro. Anota las páginas de una sesión y toca una segunda isla de género para que esas páginas se vuelvan un Recorrido gastado como distancia.
+
+• La introducción cubre Las páginas se vuelven distancia, Toca una isla para tomar rumbo y Las líneas se espesan al volver. Usa Omitir, Continuar o Empezar.
+• Inicio es el Diario de lectura de islas de género. Hasta amarrar un libro muestra El agua está vacía. Anotar páginas abre el Estante.
+• El Estante permite escanear un libro de bolsillo, escribir un ISBN y Consultar, o Buscar por título, luego elegir la Isla y amarrar un libro del Estante local o del Catálogo.
+• Toca un libro amarrado para Saludar. Ingresa Páginas leídas y Minutos. Saludar escribe un Recorrido con esas páginas.
+• Toca una tarjeta de género marcada Gastar para colocar el Recorrido. Un toque lejano escribe una orzada y conserva el Recorrido. El mismo par gana peso al volver.
+• Terminar en un libro amarrado escribe una Recalada.
+• Días abre el Diario de lectura de Fijos, Rumbos, Orzadas y Recaladas, con Páginas por isla.
+• Ajustes incluye páginas por celda, tamaño de cuadrícula, Nombres de islas, Recordatorio nocturno, Repetir la introducción, Restablecer todos los datos y Contacto.
+
+La carta es para tu propia lectura. No se necesita cuenta.

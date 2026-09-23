@@ -1,0 +1,12 @@
+Marteloio is a reading chart for people who move between genres. Log the pages of a session, then tap a second genre island so those pages become a Run spent as distance.
+
+• Onboarding covers Pages turn into distance, Tap an island to bear, and Lines thicken on return. Use Skip, Continue, or Begin.
+• Home is the Reading log of genre islands. Until a book is moored it shows The water is empty. Log pages opens the Shelf.
+• Shelf lets you scan a paperback, enter an ISBN and Look up, or Search by title, then pick the Island and moor a book from Local shelf or Catalog.
+• Tap a moored book to Hail. Enter Pages read and Minutes. Hail writes a Run from those pages.
+• Tap a genre card marked Spend to place the Run. A far tap writes a luff and keeps the Run. The same pair gains weight on return.
+• Finish on a moored book writes a Landfall.
+• Days opens the Reading log of Fixes, Rhumbs, Luffs and Landfalls, with Pages per island.
+• Settings includes pages per cell, grid size, Island names, Evening reminder, Replay onboarding, Reset all data, and Contact.
+
+The chart is for your own reading. No account is required.

@@ -1,0 +1,17 @@
+Camera permission appears on the Shelf when camera access has not been decided. The screen says The camera reads a barcode so you can moor a book without typing the number. The button is Continue and opens the system camera dialog. The usage description in the build settings is Marteloio uses the camera to read a book's barcode so you can add it to your shelf without typing the number. If access is off, the Shelf says Camera access is off. Title search still works, or open Settings if you want to scan, and offers Open Settings. On first launch the system may also ask for notifications. There is no custom notifications usage string in the build settings. Turning on Evening reminder in Settings can present that notifications prompt again if it was not already answered.
+
+There is no login, no in-app purchase, no user-generated content, no account deletion flow, and no App Tracking Transparency prompt.
+
+Marteloio is a reading chart for people who move between genres. You log the pages of a session as a Run, then tap a second genre island so those pages are spent as distance. Days keeps a Reading log of Fixes, Rhumbs, Luffs and Landfalls.
+
+No credentials or demo account are needed. Cold launch shows three opening pages. First: Pages turn into distance, Log what you read. Those pages become a Run on the chart., then Continue. Second: Tap an island to bear, A solid island is close enough. The Run pays twenty pages for each cell., then Continue. Third: Lines thicken on return, A far tap writes a luff and keeps the Run. The same pair gains weight., then Begin. Skip writes the same start as Begin. If no book is moored, home says The water is empty and Place the first book, then log the pages you read. Tap Log pages. The Shelf says Scan a paperback or search by title, then pick the genre island. Choose an Island such as Fiction, then tap Harbor Light under Local shelf. The book appears under Moored. Tap the book title, enter Pages read and Minutes, then Hail. Close the sheet. The hailed genre card shows Open and pages left. Tap a different genre card that shows Spend to place those pages. Tapping the Open card opens Spend pages as distance. Days opens the Reading log with Pages logged, Pages per island, and rows titled Fix, Rhumb, Luff, and Landfall. The gear control opens Settings for pages per cell, grid size, Island names, Evening reminder, Replay onboarding, Reset all data, and Contact. If genre cards and an Open Run are already on screen, tap a card marked Spend to place pages.
+
+The chart, shelf, and reading log stay on this device. Search by title and Look up request catalog details, credited in Settings as Title search uses Open Library. Contact opens the support page.
+
+Behaviour does not change by region. Page counts and day labels follow the device locale.
+
+No licence or regulated-industry paperwork applies. This is a personal reading log, not a medical, financial, or licensed gambling product.
+
+The app is a personal log only and gives no recommendations.
+
+The Shelf can scan barcodes and QR codes. A scannable QR (qr-code.png) is attached to this review. It encodes 9780141439518. Simulator users type those digits in ISBN and tap Look up.

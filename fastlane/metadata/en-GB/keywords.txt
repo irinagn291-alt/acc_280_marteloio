@@ -1,0 +1,1 @@
+reading,books,pages,genre,chart,shelf,isbn,barcode,hail,rhumb,island,logbook,reminder,catalogue

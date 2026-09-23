@@ -1,0 +1,1093 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		012C1DE59DC2B2E3407D3FBC /* IslandFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA833546D16843C47D695A2 /* IslandFill.swift */; };
+		051E85402E85D3B4C6EA7DDA /* PortolanFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD8A7CB7B7B1DF608FAC218 /* PortolanFlowLayout.swift */; };
+		0B96BCCC56D0FE2177B26299 /* LocalShelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD17244235B648759182040 /* LocalShelf.swift */; };
+		0C7423258B0A732BCD436DC5 /* Shoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0F27E43E21C754F3749F36 /* Shoal.swift */; };
+		0F857CC7BE998D72C42A0830 /* FoldOutcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C9A21551EF2083E3C509C3 /* FoldOutcome.swift */; };
+		10A29D8266379B1585B63A83 /* LogbookSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F9819BD08151DF3174887 /* LogbookSheet.swift */; };
+		1146AA69AA9EFE86F383A7E0 /* BearingSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80132753F350A4EEBB0FE79 /* BearingSummary.swift */; };
+		119DEC496A8D62CC567D18F4 /* RunLedger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6D17BA6C3AC020A33699A8 /* RunLedger.swift */; };
+		11F0E0C627DBCCA94EACD9B2 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BA114D7FA16872BDAD4535 /* ChartViewController.swift */; };
+		12EDD7B6C179AE9B723417ED /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 041C52F7C75AE5F3F0C020A0 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		13BAA28DD9B662516DE08508 /* ScanReticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795CDAE702EE81E28F794085 /* ScanReticle.swift */; };
+		1448AB6AE36990CDCF6D414E /* Radius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C91F0A476C59413DBAAD4B1 /* Radius.swift */; };
+		1D8D2F7DAD9CBC43221B27F7 /* BearingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1953E171797E5E7D137DE190 /* BearingLabel.swift */; };
+		1DA1EA6E2B5673B7D8B37C0A /* SheetStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC441EB3071916A416B92D16 /* SheetStack.swift */; };
+		1E459C69060834AF5254B8F0 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B2A35CED4F78FF06DF136D /* Session.swift */; };
+		221A1F5C1A60083EE434B2DD /* Daykey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965A284E4B2FA25A423298FF /* Daykey.swift */; };
+		258316E4154170F1AEE44D3D /* ReviewScreenKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD8833FD01B16C3EAEB6BED /* ReviewScreenKeys.swift */; };
+		2AD300DCA95BB86DFC1FC8F6 /* DemoSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E16E759E075B8BF4E8BF84 /* DemoSeed.swift */; };
+		2EB4C1F2F0FC72B8EBD8C23B /* RhumbReachSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2190E09B7C69B7F14F8E94 /* RhumbReachSheet.swift */; };
+		3196A4ABB6E0ED52B5468B0C /* IsbnScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C3E56F32E2A63A8FBAB8E7 /* IsbnScanner.swift */; };
+		3305094CB38E177E6B793E56 /* OneSignalInAppMessages in Frameworks */ = {isa = PBXBuildFile; productRef = 22B89D07CC88C228AE3BFDB8 /* OneSignalInAppMessages */; };
+		342188C4227BBDAB0DDCF695 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44052370495541F7293ACE /* NotificationService.swift */; };
+		362DE2E6DA584ACC05729BB0 /* FamilyInvariantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7D3374D08FD9DA09C13C3F /* FamilyInvariantTests.swift */; };
+		37EF8E9B6B7A13F5F9746A91 /* SettingsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E822B1A72177F9C75A8034 /* SettingsSheet.swift */; };
+		3803CAF6EF98C388179168D5 /* DebouncedSave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7885244647A842D5E0577AD0 /* DebouncedSave.swift */; };
+		38F1FC18AD6CC8A7705391EE /* MarteloioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9849D7E303ABFCE74A898F2E /* MarteloioTests.swift */; };
+		3C6EDD54CF6F89A1B1D1C94A /* ChartStoreRoundTripTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4046C1E7B6A325D2F59A130B /* ChartStoreRoundTripTests.swift */; };
+		3DA3A57B548DBF600FB678A0 /* Elevation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC33806EEDD4E89A335C4DBD /* Elevation.swift */; };
+		40B9D0A6F169CA91F920B824 /* PagesEntryField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBD583B51E55AFF297E6CAE /* PagesEntryField.swift */; };
+		4513B2BE16553DB9418D3250 /* Space.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983BC68926505FA65EED5EFB /* Space.swift */; };
+		4C8CD4DF4DBB80B777E5C9D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA0E1D211A699A5F028F304 /* Assets.xcassets */; };
+		4EA36AC502B5EBF5A8B0C804 /* Shelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BD32E87CCEF97AEE479199 /* Shelf.swift */; };
+		5333CE0ABA3129D07B865734 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986E898057064A6428C707FC /* AppDelegate.swift */; };
+		540F92E1434647A16D144E37 /* RunBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D956CC7A12413AF1AD4699 /* RunBadgeView.swift */; };
+		5A79611175B1421BCE8AE16D /* BookRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18C882E929503AFBBDAC314 /* BookRow.swift */; };
+		5B3A65E668AB66B150674748 /* CatalogClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8E63E9F4BE8E8B313B3FC0 /* CatalogClient.swift */; };
+		5E66ED2D79A92C86DF25017E /* MarteloioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79CFB2082CF6779F16D51BF /* MarteloioApp.swift */; };
+		5EDB2421D9BA3EFF1764790C /* Island.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1208D6AEA86D905067810BD0 /* Island.swift */; };
+		5F894C681C6327C48AFA361B /* Motion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770E6D80AB093FC2ECB88F2C /* Motion.swift */; };
+		6265F3D38E3DAFDB73985915 /* DaykeyGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5414EADCD65E110C47396D59 /* DaykeyGroup.swift */; };
+		64BF11A90E0A81D02A55985A /* OneSignalExtension in Frameworks */ = {isa = PBXBuildFile; productRef = C76803B5EBFD20FEB95AE078 /* OneSignalExtension */; };
+		65757F5A2FB76471971EB9B9 /* ReviewScreenKeysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D04433578562213D6837ADF /* ReviewScreenKeysTests.swift */; };
+		67A080C59FE646CC84EED05A /* ChartEmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358BECE35F4C5EB298D97A00 /* ChartEmptyState.swift */; };
+		6C7F6F2B549620435F420EDC /* ChartSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E5832C641173F30E52824D /* ChartSession.swift */; };
+		6CCA51AF7DB2FC906BFEED3C /* HailSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88910F6DD8AADE0AE542366F /* HailSheet.swift */; };
+		6CF5050EF948D5294ACC28E9 /* InkColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB8FAED823B033CFEEE6E3A /* InkColor.swift */; };
+		743410D50B8FD450E2F3DA33 /* IslandCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5E53DC272191A341025F67 /* IslandCell.swift */; };
+		7478C377A375663B9BD95A07 /* ChartRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DD5E4B52CD23587B56455C /* ChartRepresentable.swift */; };
+		7958BEBF6674700B464B8EA4 /* AppRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810D557D2F43DD5878FD63C6 /* AppRoot.swift */; };
+		7AC58FC18C8FE9E66F780010 /* CatalogTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC02268229BCFABF42E9D376 /* CatalogTitle.swift */; };
+		8564C3C278C83B91D3125E6F /* ChartVault.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFA9F44D45D40BBE025B731 /* ChartVault.swift */; };
+		8D9585BF8DE03CF06BCD10CA /* ReachRateControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AD31BE9F1FD3AF1600EA19 /* ReachRateControl.swift */; };
+		8E51FBD4B1515868FC2E306A /* Mark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DA204FEA20BBF20E19A589 /* Mark.swift */; };
+		902F878FFBCB6E7BC1416338 /* IslandRename.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0DC1E2AE214644F634BF8A /* IslandRename.swift */; };
+		90AC2894BDE376139A848D76 /* IslandGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335A189E316CB9474B9798CB /* IslandGrid.swift */; };
+		91BD2A579B82CD5EAF58817D /* TypeScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE6534045FF6FCDBB114E09 /* TypeScale.swift */; };
+		96301EA8B9AF264E3248C81C /* RhumbThickenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9169CF6062B659EC764A42D2 /* RhumbThickenTests.swift */; };
+		96C3E7257138F504DD77438A /* IslandBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF9A6FD9F671FB47C7D77FF /* IslandBoard.swift */; };
+		96FC9609432C8AC22EAACA5A /* CatalogClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3380E14116AB8A5BCFC189C4 /* CatalogClientTests.swift */; };
+		97C1FDB01EE7F5413E4B295A /* ChartRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A963F263A8E8866C2BB171 /* ChartRecord.swift */; };
+		990BE957744B9669C5EB0284 /* ChartFold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E9E353EBA6D369B9288A28 /* ChartFold.swift */; };
+		9CE23B3D211F29A4032514CF /* RhumbGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD1ABC7230010715AEF0318 /* RhumbGeometry.swift */; };
+		A16FF3A3333C57B8DD37D584 /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 921F417BD29F76E4A88D5245 /* OneSignalFramework */; };
+		AADBA3D88E3663B08442D3B4 /* Landfall.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC75B1BCCD659E77CC21E4 /* Landfall.swift */; };
+		ADBAC8F6ADFD4D9B6CFDF50C /* DaykeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486F07634E33EB9240C714F7 /* DaykeyTests.swift */; };
+		B8415478BEB17969032F7482 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2505CC64515F8905085D94D /* APIConfig.swift */; };
+		B8FA66A6A8D4E047A1F6A8CB /* LuffMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517A90D0C5AF3FE2A20A6ABC /* LuffMark.swift */; };
+		BE11E415FC54CE3728654A47 /* RhumbMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4ABDD38A82BB93C5C4210F1 /* RhumbMark.swift */; };
+		BE5F9DC2CA74918634698460 /* ChartStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0EFDF557184DA395E22C3C /* ChartStore.swift */; };
+		C16382EF7F1552DEB1B75E3F /* ContactLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE1868C09F3A3E4AA05CF7F /* ContactLink.swift */; };
+		C2B2F4C4CC250F809F137B61 /* Tokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0CF28314A2BE5429E970B0 /* Tokens.swift */; };
+		C3008CD5B41787B02CD675B2 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B465A38504F1701C441638 /* OnboardingView.swift */; };
+		C561C0F681E5747013953C12 /* ChartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE0C3EB23BDA844C9DEAC3F /* ChartScreen.swift */; };
+		C6EBDDC54E080D513A2A2440 /* ChartCanvasSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06DD38AE4D4EEA6CF598934 /* ChartCanvasSnapshot.swift */; };
+		CF987015ED869B274D17F833 /* RhumbLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FD1ED657F46663FD1BC772 /* RhumbLayoutAttributes.swift */; };
+		D1B32FB8959F2F8A1D514551 /* Rhumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4C87E2BAC7AB7F14466788 /* Rhumb.swift */; };
+		D3206EA94D21EB72DAE4614E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 74533DCFF31D44157F17D615 /* Alamofire */; };
+		D71BD42687DD03D567C33563 /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6051B866562546BFA6F496B9 /* PrimaryButtonStyle.swift */; };
+		D8F33EF4DE0CD2C41F656D53 /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A780CD04C0D54958C18929 /* Run.swift */; };
+		DBB19C86D3E9D60C9143536F /* ShelfSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45ECF620533B91E3E25C1331 /* ShelfSheet.swift */; };
+		DBD62E310B205CEF3BFEE7AA /* ReachCostTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60D435CEB74D0C702EB052F /* ReachCostTests.swift */; };
+		DD477CDF5E88BABEE7DD56E6 /* FixMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570A0F121725FC823B1A1135 /* FixMark.swift */; };
+		DF8C99EA07A52604AD2DDB2B /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518B1A28C052628C9E1BD56 /* Book.swift */; };
+		DFAF03F6EFD1C9FE33B4B3B4 /* ReminderScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02557D0DC7AF331E108ABB97 /* ReminderScheduler.swift */; };
+		E493C5C985DB665C96913CE0 /* WindroseDecorationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48479FC0925AD1F2E1DFC70E /* WindroseDecorationView.swift */; };
+		E932DA2AB0C1671D11B05175 /* RhumbDecorationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE4435FEFDE16C9A319459C /* RhumbDecorationView.swift */; };
+		EBE32D940DC4F23902E17136 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7639F3BBCA620B5741AA2EA /* ContentView.swift */; };
+		F101A5B56B73BE418E5A817B /* ChartFoldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6130872A9DD6775768797FF5 /* ChartFoldTests.swift */; };
+		F14B6610FC3FACDD350A521D /* StarterChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B9312165C18B834335C83F /* StarterChart.swift */; };
+		F2590BC785C4019F86ED41CA /* CameraPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4060D4E7068F976259CC4D9 /* CameraPermission.swift */; };
+		F2F005FB6EE8C8493316EC3A /* ChartNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69101814B3C8B9718FA5437 /* ChartNumbers.swift */; };
+		FE9DA38506020D6F82E73EA6 /* ReachCost.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2E150D7DD4719671019D98 /* ReachCost.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		930B98646C6552F00320B97E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDEB3EBAF2AD1A9B94228739 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4ABEA838B2C03E1BA85041E;
+			remoteInfo = Marteloio;
+		};
+		B3C484C0A77258B333C7FF34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDEB3EBAF2AD1A9B94228739 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73C6855C96255A1A380DA650;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		72E543F723A2887E296E1DFF /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				12EDD7B6C179AE9B723417ED /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		02557D0DC7AF331E108ABB97 /* ReminderScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderScheduler.swift; sourceTree = "<group>"; };
+		041C52F7C75AE5F3F0C020A0 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E5832C641173F30E52824D /* ChartSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartSession.swift; sourceTree = "<group>"; };
+		06E9E353EBA6D369B9288A28 /* ChartFold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartFold.swift; sourceTree = "<group>"; };
+		09BD32E87CCEF97AEE479199 /* Shelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shelf.swift; sourceTree = "<group>"; };
+		10A780CD04C0D54958C18929 /* Run.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
+		10DA204FEA20BBF20E19A589 /* Mark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mark.swift; sourceTree = "<group>"; };
+		11DD5E4B52CD23587B56455C /* ChartRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartRepresentable.swift; sourceTree = "<group>"; };
+		1208D6AEA86D905067810BD0 /* Island.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Island.swift; sourceTree = "<group>"; };
+		14A963F263A8E8866C2BB171 /* ChartRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartRecord.swift; sourceTree = "<group>"; };
+		1953E171797E5E7D137DE190 /* BearingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BearingLabel.swift; sourceTree = "<group>"; };
+		1BA833546D16843C47D695A2 /* IslandFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandFill.swift; sourceTree = "<group>"; };
+		2AB8FAED823B033CFEEE6E3A /* InkColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InkColor.swift; sourceTree = "<group>"; };
+		2D04433578562213D6837ADF /* ReviewScreenKeysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewScreenKeysTests.swift; sourceTree = "<group>"; };
+		2D4C87E2BAC7AB7F14466788 /* Rhumb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rhumb.swift; sourceTree = "<group>"; };
+		335A189E316CB9474B9798CB /* IslandGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandGrid.swift; sourceTree = "<group>"; };
+		3380E14116AB8A5BCFC189C4 /* CatalogClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogClientTests.swift; sourceTree = "<group>"; };
+		358BECE35F4C5EB298D97A00 /* ChartEmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartEmptyState.swift; sourceTree = "<group>"; };
+		3D5E53DC272191A341025F67 /* IslandCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandCell.swift; sourceTree = "<group>"; };
+		4046C1E7B6A325D2F59A130B /* ChartStoreRoundTripTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartStoreRoundTripTests.swift; sourceTree = "<group>"; };
+		42B9312165C18B834335C83F /* StarterChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterChart.swift; sourceTree = "<group>"; };
+		45ECF620533B91E3E25C1331 /* ShelfSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfSheet.swift; sourceTree = "<group>"; };
+		48479FC0925AD1F2E1DFC70E /* WindroseDecorationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindroseDecorationView.swift; sourceTree = "<group>"; };
+		486F07634E33EB9240C714F7 /* DaykeyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaykeyTests.swift; sourceTree = "<group>"; };
+		50FD1ED657F46663FD1BC772 /* RhumbLayoutAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhumbLayoutAttributes.swift; sourceTree = "<group>"; };
+		517A90D0C5AF3FE2A20A6ABC /* LuffMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuffMark.swift; sourceTree = "<group>"; };
+		5414EADCD65E110C47396D59 /* DaykeyGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaykeyGroup.swift; sourceTree = "<group>"; };
+		570A0F121725FC823B1A1135 /* FixMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixMark.swift; sourceTree = "<group>"; };
+		5BD1ABC7230010715AEF0318 /* RhumbGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhumbGeometry.swift; sourceTree = "<group>"; };
+		5CE1868C09F3A3E4AA05CF7F /* ContactLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactLink.swift; sourceTree = "<group>"; };
+		60244F79ABF5ED1C3838E012 /* Marteloio.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Marteloio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6051B866562546BFA6F496B9 /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
+		6130872A9DD6775768797FF5 /* ChartFoldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartFoldTests.swift; sourceTree = "<group>"; };
+		6C0EFDF557184DA395E22C3C /* ChartStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartStore.swift; sourceTree = "<group>"; };
+		6CD8A7CB7B7B1DF608FAC218 /* PortolanFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortolanFlowLayout.swift; sourceTree = "<group>"; };
+		6F2190E09B7C69B7F14F8E94 /* RhumbReachSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhumbReachSheet.swift; sourceTree = "<group>"; };
+		6FE0C3EB23BDA844C9DEAC3F /* ChartScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartScreen.swift; sourceTree = "<group>"; };
+		73E822B1A72177F9C75A8034 /* SettingsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSheet.swift; sourceTree = "<group>"; };
+		74D956CC7A12413AF1AD4699 /* RunBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunBadgeView.swift; sourceTree = "<group>"; };
+		770E6D80AB093FC2ECB88F2C /* Motion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motion.swift; sourceTree = "<group>"; };
+		7885244647A842D5E0577AD0 /* DebouncedSave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebouncedSave.swift; sourceTree = "<group>"; };
+		795CDAE702EE81E28F794085 /* ScanReticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanReticle.swift; sourceTree = "<group>"; };
+		7C91F0A476C59413DBAAD4B1 /* Radius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radius.swift; sourceTree = "<group>"; };
+		7D0F27E43E21C754F3749F36 /* Shoal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shoal.swift; sourceTree = "<group>"; };
+		7DBD583B51E55AFF297E6CAE /* PagesEntryField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagesEntryField.swift; sourceTree = "<group>"; };
+		810D557D2F43DD5878FD63C6 /* AppRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRoot.swift; sourceTree = "<group>"; };
+		81AD31BE9F1FD3AF1600EA19 /* ReachRateControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachRateControl.swift; sourceTree = "<group>"; };
+		84438D7CC4AFB555095D71A3 /* MarteloioTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MarteloioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88910F6DD8AADE0AE542366F /* HailSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HailSheet.swift; sourceTree = "<group>"; };
+		9169CF6062B659EC764A42D2 /* RhumbThickenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhumbThickenTests.swift; sourceTree = "<group>"; };
+		9518B1A28C052628C9E1BD56 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		965A284E4B2FA25A423298FF /* Daykey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daykey.swift; sourceTree = "<group>"; };
+		983BC68926505FA65EED5EFB /* Space.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Space.swift; sourceTree = "<group>"; };
+		9849D7E303ABFCE74A898F2E /* MarteloioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarteloioTests.swift; sourceTree = "<group>"; };
+		986E898057064A6428C707FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A18C882E929503AFBBDAC314 /* BookRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRow.swift; sourceTree = "<group>"; };
+		A2505CC64515F8905085D94D /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		A4ABDD38A82BB93C5C4210F1 /* RhumbMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhumbMark.swift; sourceTree = "<group>"; };
+		A4C3E56F32E2A63A8FBAB8E7 /* IsbnScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsbnScanner.swift; sourceTree = "<group>"; };
+		A60D435CEB74D0C702EB052F /* ReachCostTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachCostTests.swift; sourceTree = "<group>"; };
+		A6BC75B1BCCD659E77CC21E4 /* Landfall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landfall.swift; sourceTree = "<group>"; };
+		A8B465A38504F1701C441638 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		ADD17244235B648759182040 /* LocalShelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalShelf.swift; sourceTree = "<group>"; };
+		AFE4435FEFDE16C9A319459C /* RhumbDecorationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhumbDecorationView.swift; sourceTree = "<group>"; };
+		B4060D4E7068F976259CC4D9 /* CameraPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPermission.swift; sourceTree = "<group>"; };
+		B6E16E759E075B8BF4E8BF84 /* DemoSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoSeed.swift; sourceTree = "<group>"; };
+		B7639F3BBCA620B5741AA2EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BC9F9819BD08151DF3174887 /* LogbookSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogbookSheet.swift; sourceTree = "<group>"; };
+		C80132753F350A4EEBB0FE79 /* BearingSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BearingSummary.swift; sourceTree = "<group>"; };
+		CB2E150D7DD4719671019D98 /* ReachCost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachCost.swift; sourceTree = "<group>"; };
+		CBE6534045FF6FCDBB114E09 /* TypeScale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeScale.swift; sourceTree = "<group>"; };
+		CC33806EEDD4E89A335C4DBD /* Elevation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elevation.swift; sourceTree = "<group>"; };
+		CD44052370495541F7293ACE /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		CD6D17BA6C3AC020A33699A8 /* RunLedger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunLedger.swift; sourceTree = "<group>"; };
+		CFA0E1D211A699A5F028F304 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0C9A21551EF2083E3C509C3 /* FoldOutcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldOutcome.swift; sourceTree = "<group>"; };
+		D3BA114D7FA16872BDAD4535 /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		D69101814B3C8B9718FA5437 /* ChartNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartNumbers.swift; sourceTree = "<group>"; };
+		D79CFB2082CF6779F16D51BF /* MarteloioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarteloioApp.swift; sourceTree = "<group>"; };
+		DBD8833FD01B16C3EAEB6BED /* ReviewScreenKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewScreenKeys.swift; sourceTree = "<group>"; };
+		DBFA9F44D45D40BBE025B731 /* ChartVault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartVault.swift; sourceTree = "<group>"; };
+		DC7D3374D08FD9DA09C13C3F /* FamilyInvariantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyInvariantTests.swift; sourceTree = "<group>"; };
+		DCF9A6FD9F671FB47C7D77FF /* IslandBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandBoard.swift; sourceTree = "<group>"; };
+		DD0CF28314A2BE5429E970B0 /* Tokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tokens.swift; sourceTree = "<group>"; };
+		DE0DC1E2AE214644F634BF8A /* IslandRename.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandRename.swift; sourceTree = "<group>"; };
+		E06DD38AE4D4EEA6CF598934 /* ChartCanvasSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartCanvasSnapshot.swift; sourceTree = "<group>"; };
+		E4B2A35CED4F78FF06DF136D /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		FC02268229BCFABF42E9D376 /* CatalogTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogTitle.swift; sourceTree = "<group>"; };
+		FC441EB3071916A416B92D16 /* SheetStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetStack.swift; sourceTree = "<group>"; };
+		FF8E63E9F4BE8E8B313B3FC0 /* CatalogClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogClient.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E835011DF04F3BC4128780C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3206EA94D21EB72DAE4614E /* Alamofire in Frameworks */,
+				A16FF3A3333C57B8DD37D584 /* OneSignalFramework in Frameworks */,
+				3305094CB38E177E6B793E56 /* OneSignalInAppMessages in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1396985F02921DA0F08CBB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64BF11A90E0A81D02A55985A /* OneSignalExtension in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AECF1B9AA0CE8FC4A1BDDEE /* Run */ = {
+			isa = PBXGroup;
+			children = (
+				10A780CD04C0D54958C18929 /* Run.swift */,
+				CD6D17BA6C3AC020A33699A8 /* RunLedger.swift */,
+			);
+			path = Run;
+			sourceTree = "<group>";
+		};
+		0E89D705E013E67751258975 /* Fold */ = {
+			isa = PBXGroup;
+			children = (
+				06E9E353EBA6D369B9288A28 /* ChartFold.swift */,
+				D0C9A21551EF2083E3C509C3 /* FoldOutcome.swift */,
+				7D0F27E43E21C754F3749F36 /* Shoal.swift */,
+			);
+			path = Fold;
+			sourceTree = "<group>";
+		};
+		0FCA80BBA93DE289E23CF9E1 /* Marks */ = {
+			isa = PBXGroup;
+			children = (
+				570A0F121725FC823B1A1135 /* FixMark.swift */,
+				A6BC75B1BCCD659E77CC21E4 /* Landfall.swift */,
+				517A90D0C5AF3FE2A20A6ABC /* LuffMark.swift */,
+				10DA204FEA20BBF20E19A589 /* Mark.swift */,
+				A4ABDD38A82BB93C5C4210F1 /* RhumbMark.swift */,
+			);
+			path = Marks;
+			sourceTree = "<group>";
+		};
+		1346FE56F8E5B0460AEB302D /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				CD44052370495541F7293ACE /* NotificationService.swift */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		1523785EE234A2714BF17454 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				E06DD38AE4D4EEA6CF598934 /* ChartCanvasSnapshot.swift */,
+				358BECE35F4C5EB298D97A00 /* ChartEmptyState.swift */,
+				11DD5E4B52CD23587B56455C /* ChartRepresentable.swift */,
+				6FE0C3EB23BDA844C9DEAC3F /* ChartScreen.swift */,
+				D3BA114D7FA16872BDAD4535 /* ChartViewController.swift */,
+				DCF9A6FD9F671FB47C7D77FF /* IslandBoard.swift */,
+				3D5E53DC272191A341025F67 /* IslandCell.swift */,
+				6CD8A7CB7B7B1DF608FAC218 /* PortolanFlowLayout.swift */,
+				AFE4435FEFDE16C9A319459C /* RhumbDecorationView.swift */,
+				50FD1ED657F46663FD1BC772 /* RhumbLayoutAttributes.swift */,
+				6F2190E09B7C69B7F14F8E94 /* RhumbReachSheet.swift */,
+				74D956CC7A12413AF1AD4699 /* RunBadgeView.swift */,
+				48479FC0925AD1F2E1DFC70E /* WindroseDecorationView.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		47F267EAF3DD1C8D6263192D /* MarteloioTests */ = {
+			isa = PBXGroup;
+			children = (
+				3380E14116AB8A5BCFC189C4 /* CatalogClientTests.swift */,
+				6130872A9DD6775768797FF5 /* ChartFoldTests.swift */,
+				4046C1E7B6A325D2F59A130B /* ChartStoreRoundTripTests.swift */,
+				486F07634E33EB9240C714F7 /* DaykeyTests.swift */,
+				DC7D3374D08FD9DA09C13C3F /* FamilyInvariantTests.swift */,
+				9849D7E303ABFCE74A898F2E /* MarteloioTests.swift */,
+				A60D435CEB74D0C702EB052F /* ReachCostTests.swift */,
+				2D04433578562213D6837ADF /* ReviewScreenKeysTests.swift */,
+				9169CF6062B659EC764A42D2 /* RhumbThickenTests.swift */,
+			);
+			path = MarteloioTests;
+			sourceTree = "<group>";
+		};
+		5361C430270FE4DC3FE66C7A /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				5CE1868C09F3A3E4AA05CF7F /* ContactLink.swift */,
+				81AD31BE9F1FD3AF1600EA19 /* ReachRateControl.swift */,
+				02557D0DC7AF331E108ABB97 /* ReminderScheduler.swift */,
+				73E822B1A72177F9C75A8034 /* SettingsSheet.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		57B3A2A42091DF6EEB1B0267 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				810D557D2F43DD5878FD63C6 /* AppRoot.swift */,
+				04E5832C641173F30E52824D /* ChartSession.swift */,
+				B6E16E759E075B8BF4E8BF84 /* DemoSeed.swift */,
+				A8B465A38504F1701C441638 /* OnboardingView.swift */,
+				DBD8833FD01B16C3EAEB6BED /* ReviewScreenKeys.swift */,
+				42B9312165C18B834335C83F /* StarterChart.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		636926DBEA4AEC6DBC74417B /* Logbook */ = {
+			isa = PBXGroup;
+			children = (
+				C80132753F350A4EEBB0FE79 /* BearingSummary.swift */,
+				5414EADCD65E110C47396D59 /* DaykeyGroup.swift */,
+				BC9F9819BD08151DF3174887 /* LogbookSheet.swift */,
+			);
+			path = Logbook;
+			sourceTree = "<group>";
+		};
+		6C04E24D0DF5A731F47F5D1D /* Rhumb */ = {
+			isa = PBXGroup;
+			children = (
+				1953E171797E5E7D137DE190 /* BearingLabel.swift */,
+				2D4C87E2BAC7AB7F14466788 /* Rhumb.swift */,
+				5BD1ABC7230010715AEF0318 /* RhumbGeometry.swift */,
+			);
+			path = Rhumb;
+			sourceTree = "<group>";
+		};
+		6F904D56AC3A2327824D8BE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60244F79ABF5ED1C3838E012 /* Marteloio.app */,
+				84438D7CC4AFB555095D71A3 /* MarteloioTests.xctest */,
+				041C52F7C75AE5F3F0C020A0 /* OneSignalNotificationServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		882CFAECA60DD99F2B9CCC4B = {
+			isa = PBXGroup;
+			children = (
+				D1E315AC8938BEF80A1ACB7F /* Marteloio */,
+				47F267EAF3DD1C8D6263192D /* MarteloioTests */,
+				1346FE56F8E5B0460AEB302D /* OneSignalNotificationServiceExtension */,
+				6F904D56AC3A2327824D8BE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B96B0BBD949C281D79725136 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				88910F6DD8AADE0AE542366F /* HailSheet.swift */,
+				7DBD583B51E55AFF297E6CAE /* PagesEntryField.swift */,
+				E4B2A35CED4F78FF06DF136D /* Session.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		C2BAF992BF7CD233E7CF4B98 /* Island */ = {
+			isa = PBXGroup;
+			children = (
+				1208D6AEA86D905067810BD0 /* Island.swift */,
+				1BA833546D16843C47D695A2 /* IslandFill.swift */,
+				335A189E316CB9474B9798CB /* IslandGrid.swift */,
+				DE0DC1E2AE214644F634BF8A /* IslandRename.swift */,
+				CB2E150D7DD4719671019D98 /* ReachCost.swift */,
+			);
+			path = Island;
+			sourceTree = "<group>";
+		};
+		D1E315AC8938BEF80A1ACB7F /* Marteloio */ = {
+			isa = PBXGroup;
+			children = (
+				A2505CC64515F8905085D94D /* APIConfig.swift */,
+				986E898057064A6428C707FC /* AppDelegate.swift */,
+				CFA0E1D211A699A5F028F304 /* Assets.xcassets */,
+				B7639F3BBCA620B5741AA2EA /* ContentView.swift */,
+				D79CFB2082CF6779F16D51BF /* MarteloioApp.swift */,
+				57B3A2A42091DF6EEB1B0267 /* App */,
+				D4C6C6FA1EE8C4F3EA1B524C /* Book */,
+				1523785EE234A2714BF17454 /* Chart */,
+				DF3C7FBCFD5F11CF79D6E608 /* Design */,
+				0E89D705E013E67751258975 /* Fold */,
+				C2BAF992BF7CD233E7CF4B98 /* Island */,
+				636926DBEA4AEC6DBC74417B /* Logbook */,
+				0FCA80BBA93DE289E23CF9E1 /* Marks */,
+				6C04E24D0DF5A731F47F5D1D /* Rhumb */,
+				0AECF1B9AA0CE8FC4A1BDDEE /* Run */,
+				B96B0BBD949C281D79725136 /* Session */,
+				5361C430270FE4DC3FE66C7A /* Settings */,
+				FF3ACF5317B12287D9A2B69D /* Store */,
+			);
+			path = Marteloio;
+			sourceTree = "<group>";
+		};
+		D4C6C6FA1EE8C4F3EA1B524C /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				9518B1A28C052628C9E1BD56 /* Book.swift */,
+				A18C882E929503AFBBDAC314 /* BookRow.swift */,
+				B4060D4E7068F976259CC4D9 /* CameraPermission.swift */,
+				FF8E63E9F4BE8E8B313B3FC0 /* CatalogClient.swift */,
+				FC02268229BCFABF42E9D376 /* CatalogTitle.swift */,
+				A4C3E56F32E2A63A8FBAB8E7 /* IsbnScanner.swift */,
+				ADD17244235B648759182040 /* LocalShelf.swift */,
+				795CDAE702EE81E28F794085 /* ScanReticle.swift */,
+				09BD32E87CCEF97AEE479199 /* Shelf.swift */,
+				45ECF620533B91E3E25C1331 /* ShelfSheet.swift */,
+			);
+			path = Book;
+			sourceTree = "<group>";
+		};
+		DF3C7FBCFD5F11CF79D6E608 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				D69101814B3C8B9718FA5437 /* ChartNumbers.swift */,
+				CC33806EEDD4E89A335C4DBD /* Elevation.swift */,
+				2AB8FAED823B033CFEEE6E3A /* InkColor.swift */,
+				770E6D80AB093FC2ECB88F2C /* Motion.swift */,
+				6051B866562546BFA6F496B9 /* PrimaryButtonStyle.swift */,
+				7C91F0A476C59413DBAAD4B1 /* Radius.swift */,
+				FC441EB3071916A416B92D16 /* SheetStack.swift */,
+				983BC68926505FA65EED5EFB /* Space.swift */,
+				DD0CF28314A2BE5429E970B0 /* Tokens.swift */,
+				CBE6534045FF6FCDBB114E09 /* TypeScale.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		FF3ACF5317B12287D9A2B69D /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				14A963F263A8E8866C2BB171 /* ChartRecord.swift */,
+				6C0EFDF557184DA395E22C3C /* ChartStore.swift */,
+				DBFA9F44D45D40BBE025B731 /* ChartVault.swift */,
+				965A284E4B2FA25A423298FF /* Daykey.swift */,
+				7885244647A842D5E0577AD0 /* DebouncedSave.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73C6855C96255A1A380DA650 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68FB1252B9794C07ED09BD75 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				0A197CF107CCE71470E84231 /* Sources */,
+				C1396985F02921DA0F08CBB4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			packageProductDependencies = (
+				C76803B5EBFD20FEB95AE078 /* OneSignalExtension */,
+			);
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 041C52F7C75AE5F3F0C020A0 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		C4ABEA838B2C03E1BA85041E /* Marteloio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2522C5F45D4C33542CDBF55 /* Build configuration list for PBXNativeTarget "Marteloio" */;
+			buildPhases = (
+				2EA393321C5DC28F8F6FA196 /* Sources */,
+				43EE06978F55D817FE096C0C /* Resources */,
+				4E835011DF04F3BC4128780C /* Frameworks */,
+				72E543F723A2887E296E1DFF /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F251A9C2006AAC0BB0E3DD7 /* PBXTargetDependency */,
+			);
+			name = Marteloio;
+			packageProductDependencies = (
+				74533DCFF31D44157F17D615 /* Alamofire */,
+				921F417BD29F76E4A88D5245 /* OneSignalFramework */,
+				22B89D07CC88C228AE3BFDB8 /* OneSignalInAppMessages */,
+			);
+			productName = Marteloio;
+			productReference = 60244F79ABF5ED1C3838E012 /* Marteloio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0B3DCC8F0095B84D37BD12D /* MarteloioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44B0FE3B39F1D2EBFCDC7D78 /* Build configuration list for PBXNativeTarget "MarteloioTests" */;
+			buildPhases = (
+				F5BCE6C9017CB5B69FC98E80 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				450B0493F328D714511E3417 /* PBXTargetDependency */,
+			);
+			name = MarteloioTests;
+			packageProductDependencies = (
+			);
+			productName = MarteloioTests;
+			productReference = 84438D7CC4AFB555095D71A3 /* MarteloioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDEB3EBAF2AD1A9B94228739 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					73C6855C96255A1A380DA650 = {
+						ProvisioningStyle = Automatic;
+					};
+					C4ABEA838B2C03E1BA85041E = {
+						ProvisioningStyle = Automatic;
+					};
+					D0B3DCC8F0095B84D37BD12D = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CD95F485F667A4F292481437 /* Build configuration list for PBXProject "Marteloio" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 882CFAECA60DD99F2B9CCC4B;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0AE836BC90CDEC33705D3707 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				55E1CC6D7F2B5A7168B4CAEA /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6F904D56AC3A2327824D8BE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4ABEA838B2C03E1BA85041E /* Marteloio */,
+				D0B3DCC8F0095B84D37BD12D /* MarteloioTests */,
+				73C6855C96255A1A380DA650 /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43EE06978F55D817FE096C0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C8CD4DF4DBB80B777E5C9D4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A197CF107CCE71470E84231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342188C4227BBDAB0DDCF695 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EA393321C5DC28F8F6FA196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8415478BEB17969032F7482 /* APIConfig.swift in Sources */,
+				5333CE0ABA3129D07B865734 /* AppDelegate.swift in Sources */,
+				7958BEBF6674700B464B8EA4 /* AppRoot.swift in Sources */,
+				1D8D2F7DAD9CBC43221B27F7 /* BearingLabel.swift in Sources */,
+				1146AA69AA9EFE86F383A7E0 /* BearingSummary.swift in Sources */,
+				DF8C99EA07A52604AD2DDB2B /* Book.swift in Sources */,
+				5A79611175B1421BCE8AE16D /* BookRow.swift in Sources */,
+				F2590BC785C4019F86ED41CA /* CameraPermission.swift in Sources */,
+				5B3A65E668AB66B150674748 /* CatalogClient.swift in Sources */,
+				7AC58FC18C8FE9E66F780010 /* CatalogTitle.swift in Sources */,
+				C6EBDDC54E080D513A2A2440 /* ChartCanvasSnapshot.swift in Sources */,
+				67A080C59FE646CC84EED05A /* ChartEmptyState.swift in Sources */,
+				990BE957744B9669C5EB0284 /* ChartFold.swift in Sources */,
+				F2F005FB6EE8C8493316EC3A /* ChartNumbers.swift in Sources */,
+				97C1FDB01EE7F5413E4B295A /* ChartRecord.swift in Sources */,
+				7478C377A375663B9BD95A07 /* ChartRepresentable.swift in Sources */,
+				C561C0F681E5747013953C12 /* ChartScreen.swift in Sources */,
+				6C7F6F2B549620435F420EDC /* ChartSession.swift in Sources */,
+				BE5F9DC2CA74918634698460 /* ChartStore.swift in Sources */,
+				8564C3C278C83B91D3125E6F /* ChartVault.swift in Sources */,
+				11F0E0C627DBCCA94EACD9B2 /* ChartViewController.swift in Sources */,
+				C16382EF7F1552DEB1B75E3F /* ContactLink.swift in Sources */,
+				EBE32D940DC4F23902E17136 /* ContentView.swift in Sources */,
+				221A1F5C1A60083EE434B2DD /* Daykey.swift in Sources */,
+				6265F3D38E3DAFDB73985915 /* DaykeyGroup.swift in Sources */,
+				3803CAF6EF98C388179168D5 /* DebouncedSave.swift in Sources */,
+				2AD300DCA95BB86DFC1FC8F6 /* DemoSeed.swift in Sources */,
+				3DA3A57B548DBF600FB678A0 /* Elevation.swift in Sources */,
+				DD477CDF5E88BABEE7DD56E6 /* FixMark.swift in Sources */,
+				0F857CC7BE998D72C42A0830 /* FoldOutcome.swift in Sources */,
+				6CCA51AF7DB2FC906BFEED3C /* HailSheet.swift in Sources */,
+				6CF5050EF948D5294ACC28E9 /* InkColor.swift in Sources */,
+				3196A4ABB6E0ED52B5468B0C /* IsbnScanner.swift in Sources */,
+				5EDB2421D9BA3EFF1764790C /* Island.swift in Sources */,
+				96C3E7257138F504DD77438A /* IslandBoard.swift in Sources */,
+				743410D50B8FD450E2F3DA33 /* IslandCell.swift in Sources */,
+				012C1DE59DC2B2E3407D3FBC /* IslandFill.swift in Sources */,
+				90AC2894BDE376139A848D76 /* IslandGrid.swift in Sources */,
+				902F878FFBCB6E7BC1416338 /* IslandRename.swift in Sources */,
+				AADBA3D88E3663B08442D3B4 /* Landfall.swift in Sources */,
+				0B96BCCC56D0FE2177B26299 /* LocalShelf.swift in Sources */,
+				10A29D8266379B1585B63A83 /* LogbookSheet.swift in Sources */,
+				B8FA66A6A8D4E047A1F6A8CB /* LuffMark.swift in Sources */,
+				8E51FBD4B1515868FC2E306A /* Mark.swift in Sources */,
+				5E66ED2D79A92C86DF25017E /* MarteloioApp.swift in Sources */,
+				5F894C681C6327C48AFA361B /* Motion.swift in Sources */,
+				C3008CD5B41787B02CD675B2 /* OnboardingView.swift in Sources */,
+				40B9D0A6F169CA91F920B824 /* PagesEntryField.swift in Sources */,
+				051E85402E85D3B4C6EA7DDA /* PortolanFlowLayout.swift in Sources */,
+				D71BD42687DD03D567C33563 /* PrimaryButtonStyle.swift in Sources */,
+				1448AB6AE36990CDCF6D414E /* Radius.swift in Sources */,
+				FE9DA38506020D6F82E73EA6 /* ReachCost.swift in Sources */,
+				8D9585BF8DE03CF06BCD10CA /* ReachRateControl.swift in Sources */,
+				DFAF03F6EFD1C9FE33B4B3B4 /* ReminderScheduler.swift in Sources */,
+				258316E4154170F1AEE44D3D /* ReviewScreenKeys.swift in Sources */,
+				D1B32FB8959F2F8A1D514551 /* Rhumb.swift in Sources */,
+				E932DA2AB0C1671D11B05175 /* RhumbDecorationView.swift in Sources */,
+				9CE23B3D211F29A4032514CF /* RhumbGeometry.swift in Sources */,
+				CF987015ED869B274D17F833 /* RhumbLayoutAttributes.swift in Sources */,
+				BE11E415FC54CE3728654A47 /* RhumbMark.swift in Sources */,
+				2EB4C1F2F0FC72B8EBD8C23B /* RhumbReachSheet.swift in Sources */,
+				D8F33EF4DE0CD2C41F656D53 /* Run.swift in Sources */,
+				540F92E1434647A16D144E37 /* RunBadgeView.swift in Sources */,
+				119DEC496A8D62CC567D18F4 /* RunLedger.swift in Sources */,
+				13BAA28DD9B662516DE08508 /* ScanReticle.swift in Sources */,
+				1E459C69060834AF5254B8F0 /* Session.swift in Sources */,
+				37EF8E9B6B7A13F5F9746A91 /* SettingsSheet.swift in Sources */,
+				1DA1EA6E2B5673B7D8B37C0A /* SheetStack.swift in Sources */,
+				4EA36AC502B5EBF5A8B0C804 /* Shelf.swift in Sources */,
+				DBB19C86D3E9D60C9143536F /* ShelfSheet.swift in Sources */,
+				0C7423258B0A732BCD436DC5 /* Shoal.swift in Sources */,
+				4513B2BE16553DB9418D3250 /* Space.swift in Sources */,
+				F14B6610FC3FACDD350A521D /* StarterChart.swift in Sources */,
+				C2B2F4C4CC250F809F137B61 /* Tokens.swift in Sources */,
+				91BD2A579B82CD5EAF58817D /* TypeScale.swift in Sources */,
+				E493C5C985DB665C96913CE0 /* WindroseDecorationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5BCE6C9017CB5B69FC98E80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96FC9609432C8AC22EAACA5A /* CatalogClientTests.swift in Sources */,
+				F101A5B56B73BE418E5A817B /* ChartFoldTests.swift in Sources */,
+				3C6EDD54CF6F89A1B1D1C94A /* ChartStoreRoundTripTests.swift in Sources */,
+				ADBAC8F6ADFD4D9B6CFDF50C /* DaykeyTests.swift in Sources */,
+				362DE2E6DA584ACC05729BB0 /* FamilyInvariantTests.swift in Sources */,
+				38F1FC18AD6CC8A7705391EE /* MarteloioTests.swift in Sources */,
+				DBD62E310B205CEF3BFEE7AA /* ReachCostTests.swift in Sources */,
+				65757F5A2FB76471971EB9B9 /* ReviewScreenKeysTests.swift in Sources */,
+				96301EA8B9AF264E3248C81C /* RhumbThickenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		450B0493F328D714511E3417 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4ABEA838B2C03E1BA85041E /* Marteloio */;
+			targetProxy = 930B98646C6552F00320B97E /* PBXContainerItemProxy */;
+		};
+		5F251A9C2006AAC0BB0E3DD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73C6855C96255A1A380DA650 /* OneSignalNotificationServiceExtension */;
+			targetProxy = B3C484C0A77258B333C7FF34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03218942AFC1A578A8689514 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.marteloio.chart.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marteloio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Marteloio";
+			};
+			name = Release;
+		};
+		1665784E40343CA90912E682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.marteloio.chart.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marteloio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Marteloio";
+			};
+			name = Debug;
+		};
+		704BE1C993DBFCA5D56636DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Support/Marteloio.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/Marteloio-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Marteloio;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Marteloio uses the camera to read a book's barcode so you can add it to your shelf without typing the number.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marteloio.chart;
+				PRODUCT_NAME = Marteloio;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FC2CFBBB915871898DE9BB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+		94C65EDC1A62E7F7751C562E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Support/Marteloio.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/Marteloio-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Marteloio;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Marteloio uses the camera to read a book's barcode so you can add it to your shelf without typing the number.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marteloio.chart;
+				PRODUCT_NAME = Marteloio;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA45A6DD77309EA30515A352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Support/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/OneSignalNotificationServiceExtension-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marteloio.chart.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = OneSignalNotificationServiceExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAE67EBEC7FE14A591C70C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Support/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/OneSignalNotificationServiceExtension-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marteloio.chart.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = OneSignalNotificationServiceExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB9E85CC2A51522051F70D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44B0FE3B39F1D2EBFCDC7D78 /* Build configuration list for PBXNativeTarget "MarteloioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1665784E40343CA90912E682 /* Debug */,
+				03218942AFC1A578A8689514 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		68FB1252B9794C07ED09BD75 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE67EBEC7FE14A591C70C6D /* Debug */,
+				AA45A6DD77309EA30515A352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CD95F485F667A4F292481437 /* Build configuration list for PBXProject "Marteloio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FC2CFBBB915871898DE9BB7 /* Debug */,
+				FB9E85CC2A51522051F70D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D2522C5F45D4C33542CDBF55 /* Build configuration list for PBXNativeTarget "Marteloio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				704BE1C993DBFCA5D56636DB /* Debug */,
+				94C65EDC1A62E7F7751C562E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0AE836BC90CDEC33705D3707 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wrandecima-bit/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = 7fdd403089757be2ce6991b287c7bef612c8bd04;
+			};
+		};
+		55E1CC6D7F2B5A7168B4CAEA /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-XCFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		22B89D07CC88C228AE3BFDB8 /* OneSignalInAppMessages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 55E1CC6D7F2B5A7168B4CAEA /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalInAppMessages;
+		};
+		74533DCFF31D44157F17D615 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0AE836BC90CDEC33705D3707 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		921F417BD29F76E4A88D5245 /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 55E1CC6D7F2B5A7168B4CAEA /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalFramework;
+		};
+		C76803B5EBFD20FEB95AE078 /* OneSignalExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 55E1CC6D7F2B5A7168B4CAEA /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalExtension;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FDEB3EBAF2AD1A9B94228739 /* Project object */;
+}
