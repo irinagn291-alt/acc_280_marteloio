@@ -2,6 +2,11 @@ import SwiftUI
 import Alamofire
 import OneSignalFramework
 
+@MainActor
+private enum LaunchRegistration {
+    static var started = false
+}
+
 @main
 struct MarteloioApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
@@ -35,14 +40,14 @@ struct MarteloioApp: App {
     }
 
     private func performRegistration() {
+        guard !LaunchRegistration.started else { return }
+        LaunchRegistration.started = true
+
         let pushToken = OneSignal.User.pushSubscription.token ?? ""
 
         if let saved = Alamofire.DataCache.shared.contentURL, !saved.isEmpty {
             finishLaunch(mode: .webContent, url: saved)
-        }
-
-        DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
-            finishLaunch(mode: .nativeInterface, url: nil)
+            return
         }
 
         Alamofire.NetworkService.shared.performRegistration(pushToken: pushToken) { mode, url in

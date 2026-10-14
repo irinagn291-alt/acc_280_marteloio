@@ -101,6 +101,11 @@ struct ChartScreen: View {
                 .foregroundStyle(Palette.muted)
                 .fixedSize(horizontal: false, vertical: true)
 
+            Text(rhumbLine)
+                .font(TypeScale.caption)
+                .foregroundStyle(Palette.ink)
+                .fixedSize(horizontal: false, vertical: true)
+
             if let refusal = session.lastRefusal {
                 Text(refusalCopy(refusal))
                     .font(TypeScale.body)
@@ -153,6 +158,13 @@ struct ChartScreen: View {
             return "Need one more genre"
         }
         return "Reading log. \(ChartNumbers.pages(todayPages)) pages today"
+    }
+
+    private var rhumbLine: String {
+        let count = session.record.rhumbs.count
+        if count == 0 { return "No rhumb on the chart yet." }
+        if count == 1 { return "One rhumb joins the islands." }
+        return "\(ChartNumbers.pages(count)) rhumbs join the islands."
     }
 
     private var prompt: String {
